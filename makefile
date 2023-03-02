@@ -18,6 +18,9 @@ heat: $(OBJ)
 	$(CXX) -o heat $(OBJ) $(LDFLAGS) -lm
 
 check_clean:
+
+# just adding a new line to practice commits 
+
 	$(RM) -rf check check_crankn check_upwind15
 
 clean: check_clean
